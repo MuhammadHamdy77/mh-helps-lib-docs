@@ -23,8 +23,6 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,7 +53,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.jpg',
     navbar: {
       title: 'Mh Helper Library',
       logo: {
@@ -81,8 +79,14 @@ const config: Config = {
       links: [
         {
           title: 'With all love ❤️',
-        
+          items:[
+                    {
+          label: 'LinkedIn',
+          to: 'https://www.linkedin.com/in/muhammed-hamdi00/',
         },
+          ]
+        },
+
       ],
         copyright: `Copyright © ${new Date().getFullYear()} 
           <a href="https://mohammedhamdi.netlify.app/" target="_blank" rel="noopener noreferrer">
